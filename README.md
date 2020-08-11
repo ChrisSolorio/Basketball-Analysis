@@ -1,4 +1,5 @@
 ### Name: Christian Solorio<br>
 I used scrapy to get nba data from basketball-reference.com. This data spanned from 1995 - 2020.I then combined this data into one file, cleaned the data, and then performed EDA on it to see patterns in the data, specifically key columns such as OBPM (offensive box plus/minus), DBPM (defensive box plus/minus), and BPM (box plus/minus). This data is best for analyzing a player's performance. Finally, I used this data alongside the twitter data to see which indicator (bpm, true shot %, etc.) was a better indicator of a player's popularity. For example, I could use DBPM to test how defensive players stack up against offensive players with high OBPM. This way I could see if there was any correlation between players playing style and their popularity. I used clustering to compare different columns alongside twitter data and make predictions from it.
-See file ESPN.py under spiders to see my spider.
-See NBA_Analysis.ipynb file for my analysis on the basketball data I scraped.
+
+To see Spider, go to nbaref -> nbref -> spiders -> ESPN.py
+See the Scrape.ipynb file for my analysis on the basketball data I scraped. Every other file is data or something else random I was working on to improve that data.
